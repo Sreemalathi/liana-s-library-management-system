@@ -33,6 +33,28 @@ The app follows a simple modular structure. **`app.py` handles the UI and page r
 
 Database setup is maintained in **`sql_files/`**, while **`con_lib.py`** manages the shared database connection configuration.
 
+## Repository Structure
+
+```
+liana-s-library-management-system/
+├── src/
+│   ├── app.py            # Page routing, layout, and UI for every page
+│   ├── login.py          # Login screen and session auth
+│   ├── books.py          # Book CRUD + availability logic
+│   ├── users.py          # User (borrower) CRUD
+│   ├── loan.py           # Borrow / extend / return + loan stats
+│   ├── reservation.py    # Reserve / fulfill / cancel reservations
+│   └── assets/           # Images used in the UI
+├── sql_files/
+│   ├── mylibrary_schema.sql       # Database schema (tables + foreign keys)
+│   └── my_library_dataupdate.sql  # Sample seed data
+├── notebook/
+│   └── crud_workflow.py  # Exploratory data-access workflow
+├── con_lib.py             # Builds the SQLAlchemy connection string from .env
+├── requirements.txt
+└── .gitignore
+```
+
 ## Database Schema
 
 Four related tables:
