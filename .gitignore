@@ -1,0 +1,14 @@
+# Secrets
+.env
+notebook/.env
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Streamlit
+.streamlit/
