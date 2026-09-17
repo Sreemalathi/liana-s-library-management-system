@@ -15,6 +15,8 @@ Liana was informally lending books to people she knew, making it easy to lose tr
 - **Reservations** — reserve books that are currently on loan, get notified when they become ready, and fulfill or cancel reservations.
 - **Access Control** — simple username/password login for application access.
 
+**Demo login:** `admin` / `pswd1234` (hardcoded for this project's current scope — not intended for production use).
+
 ## Tech Stack
 
 | Layer | Technology |
