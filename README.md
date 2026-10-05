@@ -8,7 +8,7 @@ Liana was informally lending books to people she knew, there was no track of who
 
 ## Features
 
-- **Dashboard** — at-a-glance stats for total books, total users, currently loaned books, and overdue loans, plus a "Most Popular Books" view based on loan history.
+- **Dashboard** — stats for total books, total users, currently loaned books, and overdue loans, plus a "Most Popular Books" view based on loan history.
 - **Books** — add, search, update, and delete books, with real-time availability tracking.
 - **Users** — manage the borrower registry (name, phone, email, max loans), with search-and-select editing.
 - **Loans** — borrow, extend, and return books, with automatic availability tracking and overdue detection.
