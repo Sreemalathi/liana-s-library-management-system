@@ -4,7 +4,7 @@ A simple library management system built to turn an informal book-lending proces
 
 ## Business Case
 
-Liana was informally lending books to people she knew, making it easy to lose track of who had a book, when it was due, or whether a book was already promised to someone else. This system provides a structured lending workflow with real-time availability, borrower and due-date tracking, and reservations for books that are currently on loan.
+Liana was informally lending books to people she knew, there was no track of who had a book, when it was due, or whether a book was already promised to someone else. This system provides a structured lending workflow with real-time availability, borrower and due-date tracking, and reservations for books that are currently on loan.
 
 ## Features
 
